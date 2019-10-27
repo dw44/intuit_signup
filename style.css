@@ -6,5 +6,39 @@
 }
 
 body {
-    background-color: #C7C7C7;
+    background-color: #e6e6e6;
+    font: 400 13.3333px Arial;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    margin: 10px 27px;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+header > div > p {
+    padding-top: 2px;
+}
+
+header > div > a {
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+#signin {
+    background-color: #0077c5;
+    border-radius: 4px;
+    border: 1px solid #4c4c4c;
+    color: #fff;
+    font: inherit;
+    width: 102px;
+    height: 34px;
 }
