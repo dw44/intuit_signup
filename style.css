@@ -15,9 +15,53 @@ header {
     margin-top: 30px;
 }
 
+footer {
+    margin-top: 40px;
+}
+
 li {
     display: inline;
     margin: 3px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h1, h2 {
+    color: #4c4c4c;
+}
+
+a {
+    color: #0077c5;
+    text-decoration: none;
+}
+
+label {
+    font-weight: 400;
+    color: #404040;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+a:visited {
+    color: #0077c5;
+}
+
+.main {
+    width: 100%;
+    height: 68vh;
+    margin-top: 15px;
+}
+
+.fas {
+    margin-right: 5px;
 }
 
 .top-login {
@@ -41,6 +85,69 @@ li {
     margin-top: 15px;
 }
 
+.signup-form {
+    width: 390px;
+    height: 640px;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-radius: 2px;
+    padding: 30px 30px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form > a {
+    font-size: 13px;
+}
+
+.disclaimer {
+    font-style: italic;
+    color: #757575;
+    margin-top: 35px;
+}
+
+.recaptcha {
+    font-size: 10px;
+    color: #8d9096;
+    width: 100%;
+    margin-top: 30px;
+    height: 80px;
+    padding: 0;
+    padding: 25px 0;
+    background-color: #ECEEF1;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 7px;
+    color: #505050;
+}
+
+.footer-top {
+    width: 180px;
+    margin: 0 auto;
+    padding-bottom: 7px;
+    display: flex;
+    flex-direction: row;
+} 
+
+.footer-top > a {
+    color: #505050;
+} 
+
+.footer-top > a:hover {
+    text-decoration: underline;
+}
+
+.footer-top > a:visited {
+    color: #505050;
+}
+
 .top-login > div > p {
     padding-top: 2px;
 }
@@ -48,12 +155,7 @@ li {
 .top-login > div > a {
     text-decoration: none;
     padding-top: 4px;
-    color: #0077c5;
-}
 
-.top-login > div > a:visited {
-    text-decoration: none;
-    color: #0077c5;
 }
 
 #signin {
@@ -64,4 +166,45 @@ li {
     font: inherit;
     width: 102px;
     height: 34px;
+}
+
+#signup-header {
+    font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 100%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+#main-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 25px;
+}
+
+#form-sub {
+    background: #0077C5;
+    border: #0077C5;
+    color: #fff;
+    height: 44px;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.75);
+    border-radius: 4px;
+    line-height: 1.428571429;
+    vertical-align: middle;
+    cursor: pointer;
+    font: 400 15px Arial;
+}
+
+input[type="text"],
+input[type="password"] {
+    height: 35px;
+    padding: 0 8px;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
+    line-height: 1.3em;
+    font-size: 16px;
+    margin: 6px 0 30px 0;
 }
